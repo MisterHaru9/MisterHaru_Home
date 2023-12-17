@@ -9,23 +9,11 @@
 
 <script>
 
-var inputNumber = window.prompt("숫자를 적어주세요.");
-
-switch (inputNumber) {
-    case '0':
-        alert('Zero!');
-        break;
-    case '1':
-        alert('Oneo!');
-        break;
-    case '7':
-        alert('Lucky!');
-        break;
-    default:
-        alert('Unlucky!');
-        break;
+function score(kill, win){
+    result = kill + win;
+    console.log(result);
 }
-
+score(10,15);
 
 
 </script>
